@@ -21,6 +21,10 @@ body {
   min-height: 100vh;
 }
 
+.container {
+  width: 80%;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -29,11 +33,12 @@ h1 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 0.4em 1em;
+  font-size: 0.8em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  /*cursor: pointer; 요소 위에 마우스를 올렸을 때 커서 모양을 손가락으로 바꿔주는 속성*/
   cursor: pointer;
   transition: border-color 0.25s;
 }

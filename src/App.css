@@ -1,6 +1,17 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
   text-align: center;
+  display: flex;
+  place-content: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+}
+
+ul > li {
+  
 }
