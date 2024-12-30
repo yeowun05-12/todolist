@@ -67,7 +67,7 @@ const TodoList = ({ todos }) => {
             {todo.content}
             <button onClick={() => {}}>수정</button>
             <button>삭제</button>
-            <label htmlFor='/'>
+            <label>
               <input type='checkBox' /> 완료
             </label>
           </li>
